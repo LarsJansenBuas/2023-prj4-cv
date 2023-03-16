@@ -2,27 +2,44 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif, 'Libre Franklin', sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,230,230,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+h1	{
+	color: white;
+	font-family: libre Franklin !important;
+	font-style: bold;
+}
+
+h5	{
+	color: white;
+}
+
+.NWH5 {
+	color: black;
+}
+
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #7B896C;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 29%, rgba(187,201,195,1) 100%);
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #BBC9C3;
 }
 
 /* Styles for lists in the document */
@@ -49,3 +66,20 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+.language-progress {
+	background-color: #ffe4e4 !important;
+}
+
+.border-info{
+	border-color: #7B896C !important;
+}
+
+a:link {
+	color: #ffe4e4;
+}
+
+a:hover {
+	color: #ffffff;
+}
+

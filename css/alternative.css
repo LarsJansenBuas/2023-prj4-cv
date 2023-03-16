@@ -74,8 +74,9 @@ footer {
 	min-width: 80px;
 	display: flex;
 	flex-flow: column;
-	background-color: #301010;
-	color: #f0f0f0;
+	background-color: white;
+	stroke: blue;
+	color: red;
 	height: 100%;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, .1), transparent);
 }
@@ -102,6 +103,7 @@ footer {
 }
 
 h1 {
+	color: lightblue;
 	font-size: clamp(28px, 3vh, 40px);
 	font-weight: 900;
 	font-family:  Telma;
